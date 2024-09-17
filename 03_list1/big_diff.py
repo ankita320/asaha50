@@ -1,3 +1,11 @@
+'''Ankita Saha
+  Python Pigs
+  SoftDev
+  CodingBat List 2 Center Average
+  2024-9-16
+  time spent: 2.6
+  '''
+
 def big_diff(nums):
   mi = nums[0]
   mp = nums[0]
