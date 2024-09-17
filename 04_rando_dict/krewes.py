@@ -1,3 +1,11 @@
+'''Ankita Saha
+  Python Pigs
+  SoftDev
+  Workshop: Random Devo
+  2024-9-16
+  time spent: 4.3
+  '''
+
 import random
 krewes = {
            4: [ 
