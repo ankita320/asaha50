@@ -1,7 +1,7 @@
 '''Ankita Saha
   Python Pigs
   SoftDev
-  CodingBat List 2 Center Average
+  CodingBat List 2 Count Evens
   2024-9-16
   time spent: 0.75
   '''
