@@ -1,10 +1,9 @@
 '''Ankita Saha
   Python Pigs
-SoftDev
-K<nn> -- <Title/Topic/Summary... (Aim for concision, brevity, CLARITY. Write to your future self...)>
-<yyyy>-<mm>-<dd>
-time spent: <elapsed time in hours, rounded to nearest tenth>
-
+  SoftDev
+  CodingBat List 2 Center Average
+  2024-9-16
+  time spent: 5.3
   '''
 
 def centered_average(nums):
