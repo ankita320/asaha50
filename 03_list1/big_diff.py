@@ -1,7 +1,7 @@
 '''Ankita Saha
   Python Pigs
   SoftDev
-  CodingBat List 2 Center Average
+  CodingBat List 2 Big Diff
   2024-9-16
   time spent: 2.6
   '''
