@@ -1,3 +1,12 @@
+'''Ankita Saha
+  Python Pigs
+SoftDev
+K<nn> -- <Title/Topic/Summary... (Aim for concision, brevity, CLARITY. Write to your future self...)>
+<yyyy>-<mm>-<dd>
+time spent: <elapsed time in hours, rounded to nearest tenth>
+
+  '''
+
 def centered_average(nums):
   sum = 0
   mi = nums[0]
