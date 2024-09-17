@@ -1,3 +1,11 @@
+'''Ankita Saha
+  Python Pigs
+  SoftDev
+  CodingBat List 2 Center Average
+  2024-9-16
+  time spent: 0.75
+  '''
+
 def count_evens(nums):
   sum = 0
   for i in nums:
