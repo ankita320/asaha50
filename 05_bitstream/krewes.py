@@ -2,14 +2,14 @@ def bitstream(){
     f = open("krewes.txt", "r")
     r = f.read().split('@@@')
     
-    d4 = {}
-    d5 = {}
-    arr = [d4,d5]
+    arr = []
     
     for i in r:
-        if i[0] == '4':
+        j = i.split("$$$")
+        arr.append(arr)
             
-
+    d = {4:[],5:[]}
+    
 
     '''
 list=[dictionary_4, dictionary_5]
