@@ -9,6 +9,12 @@ def bitstream(){
         arr.append(arr)
             
     d = {4:[],5:[]}
+    for k in arr:
+        if k[0] == 4:
+            d[4].append({k[1]: k[2]})
+        elif k[0] == 5:
+            d[5].append({k[1]: k[2]})
+    
     
 
     '''
