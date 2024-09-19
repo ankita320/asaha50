@@ -1,6 +1,14 @@
 def bitstream(){
     f = open("krewes.txt", "r")
-    r = f.read()
+    r = f.read().split('@@@')
+    
+    d4 = {}
+    d5 = {}
+    arr = [d4,d5]
+    
+    for i in r:
+        if i[0] == '4':
+            
 
 
     '''
