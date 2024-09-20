@@ -1,3 +1,11 @@
+'''Ankita Saha, Andy Shyklo
+  Python Pigs
+  SoftDev
+  CodingBat List 2 Big Diff
+  2024-9-16
+  time spent: 0.9 hours
+  '''
+
 import random
 import csv
 
