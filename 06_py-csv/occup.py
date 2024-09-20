@@ -13,7 +13,7 @@ def job_d():
         for i in d:
         #print(i)
         #print(d.get(i))
-            sum_v += d.get(i)
+            sum_v += d.get(i) #adds up the percentages as it loops, if exceeds the random number, returns current one, weighted random
         #print(sum)
             if sum_v > r:
                 return {i:d.get(i)}
