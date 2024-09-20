@@ -5,19 +5,24 @@
   2024-9-19
   time spent: 0.9 hours
   '''
-
 import random
 import csv
 
 def job_d():
     with open("./occupations.csv", mode ='r') as file:
         d = {}
+        total = 0
         csvFile = csv.DictReader(file)
         for lines in csvFile:
-            d[lines.get('Job Class')] = float(lines.get('Percentage'))
+            if not lines.get('Job Class') == 'Total':
+                d[lines.get('Job Class')] = float(lines.get('Percentage'))
+            else:
+                total = float(lines.get('Percentage'))
+                
         
         sum_v = 0
-        r = random.uniform(0,d.get('Total'))
+        #print(total)
+        r = random.uniform(0,total)
         for i in d:
         #print(i)
         #print(d.get(i))
