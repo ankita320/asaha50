@@ -1,3 +1,12 @@
+'''Ankita Saha, Andy Shyklo, Abeduir Rahman
+  Python Pigs
+  SoftDev
+  Reading Files and Practicing W/ Random
+  2024-9-16
+  time spent: 0.75
+  hours
+  '''
+
 def bitstream(){
     f = open("krewes.txt", "r")
     r = f.read().split('@@@')
