@@ -49,7 +49,7 @@ def hello_world():
     #print(__name__)
     jobData = fileParser(CSV_FILE_PATH)
     headers = jobData[0][0].split(',')
-    numJobData = jobData[1:len(jobData)-1]
+    numJobData = jobData[1:len(jobData)-1] #not counting the header of the values + the total amount
     dictValues = splitHeaders(numJobData)
     randJob = randomizeJob(dictValues)
     jobList = "<table><tr><th>Job List</th></tr>"
