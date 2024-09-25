@@ -1,3 +1,11 @@
+'''Ethan Sie, Marco Quintero, Ankita Saha, Colyi Chen
+  Trojan Horses
+  SoftDev
+  running occupations.csv random jobs from hw8 in a flask app
+  2024-9-23
+  time spent: 0.5 hours
+  '''
+
 from flask import Flask
 import csv
 import random
