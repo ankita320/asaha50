@@ -11,3 +11,5 @@ NOTA BENE:
      to your neighbourhood Devos+Duckies your prediction
        --- BEFORE you run your test.
      
+When we connect to this part of the localhost, instead of running an html file displaying information, it instead starts a download of the file that we referenced to our systems.
+It takes the directory in the folder of the main directory and, if the file is not html or directly integrated with the python output, downloads the file, like this one will download to the system when ran.
