@@ -5,13 +5,14 @@
 """ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Q0:
-It wouldn't run because in order to run the file with that specific method, you would need to import that template. Otherwise, the program won't know how to fetch it.
-
+Prediction: It wouldn't run because in order to run the file with that specific method, you would need to import that template. Otherwise, the program won't know how to fetch it.
+ACtual: Our prediction was correct in that the program did not run correctly since we did not import render_template -- it gave us an error screen that pointed us to the error line
 Q1:
-It would have just the \foist... at the end because that is the app route. It won't have the html file in the URL as we haven't given it yet, and it has to find it first.
-
+Prediction: It would have just the \foist... at the end because that is the app route. It won't have the html file in the URL as we haven't given it yet, and it has to find it first.
+Actual: our predication was correct because the website ran with the list of numbers when we ended it with just /my_foist.. as that is what's in the app route and note the html file. it did not run when we ended it with the html file in the URL, and gave a server error, as it did not locate it there
 Q2:
-we think it will try to find that HTML file in that folder with the render template. 
+Prediction: we think it will try to find that HTML file in that folder with the render template, sneds in "fooo" to that template", and sends the specific collection variable "coll" which we think is a collection or items like a list or dictionary.
+Actual: our prediction was essentially corect as the webpage displayed the contents of the collection "coll" since we passed it into the function. and it also used the render template to display the webpage on this framework, jinja
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """
 
