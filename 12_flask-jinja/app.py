@@ -1,6 +1,10 @@
-# Clyde 'Thluffy' Sinclair
-# SoftDev
-# Sep 2024
+'''Ankita Saha, Michelle Zhu, Jady Lei
+  AMJ
+  SoftDev
+  getting familiarized with Jinja
+  2024-9-27
+  time spent: 0.7 hours
+'''
 
 """ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
