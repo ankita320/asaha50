@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- 
+  Clyde 'Thluffy' Sinclair
+  SoftDev
+  Oct 2022
+ -->
+
+<html>
+  <style>
+  table, th, td {
+      border:1px solid black;
+  }
+  </style>
+  <head>
+    <title> {{ foo }} </title>
+  </head>
+
+  <body>
+    <h1>{{heading}}</h1>
+    <br>
+    <h3>{{roster}}</h3>
+    <br>
+    <table>
+      <tr>
+          <th>Jobs</th>
+          <th>Percentage</th>
+      </tr>
+      {% for d in dictValues %}
+      <tr>
+          <td>{{d}}</td>
+          <td>{{dictValues.get(d)}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <br>
+    <h3>Your random job is: {{random}}</h3>
+  </body>
+
+</html>
