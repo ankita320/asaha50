@@ -12,7 +12,7 @@ import csv, random
 app = Flask(__name__)
 
 coll = [1,2,3,4]
-CSV_FILE_PATH = "occupations.csv"
+CSV_FILE_PATH = "data/occupations.csv"
 
 def fileParser(file): #reads csv
     with open(file, newline='') as csvfile:
@@ -26,15 +26,20 @@ def splitHeaders(dataSet): #converts data to dictionary
     dictValues = {}
     for data in dataSet:
         for string in data:
-            for count, letter in enumerate(string[:len(string)-1]):
-                if letter == ',' and string[count+1].isnumeric():
-                    dictValues[string[:count]] = float(string[count+1:])
+            three = string.rsplit(',', 2)
+            if len(three) == 3 and three[1].replace('.', '', 1).isnumeric():  
+                job = three[0]
+                percentage = float(three[1])
+                link = three[2]
+                dictValues[job] = [percentage, link] 
+                    
     return dictValues
 
 def randomizeJob(dict): #randomizes job, weighted
     randVal = random.uniform(0,99.8)
     for data in dict:
-        randVal -= dict[data]
+        print(data)
+        randVal -= (dict[data])[0]
         if(randVal <= 0):
             return data
 
@@ -45,9 +50,10 @@ def hello_world():
     headers = jobData[0][0].split(',')
     numJobData = jobData[1:len(jobData)-1] #not counting the header of the values + the total amount
     dictValues = splitHeaders(numJobData)
+    #print(dictValues)
     random = randomizeJob(dictValues)
     
-    return render_template('temp.html', foo="Python Pigs", heading="app.py for app reoute of wdywtbwygp", roster="Python Pigs: Andy Shyklo, Ankita Saha, Abidur Rahman", dictValues=dictValues, random=random)
+    return render_template('tablified.html', foo="Python Pigs", heading="app.py for app reoute of wdywtbwygp", roster="Python Pigs: Andy Shyklo, Ankita Saha, Abidur Rahman", dictValues=dictValues, random=random)
 
 if __name__ == "__main__":
     app.debug = True
