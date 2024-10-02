@@ -27,11 +27,13 @@ time spent: 1 hr
       <tr>
           <th>Jobs</th>
           <th>Percentage</th>
+          <th>Link</th>
       </tr>
       {% for d in dictValues %}
       <tr>
           <td>{{d}}</td>
-          <td>{{dictValues.get(d)}}</td>
+          <td>{{dictValues.get(d)[0]}}</td>
+          <td>{{dictValues.get(d)[1]}}</td>
       </tr>
       {% endfor %}
     </table>
