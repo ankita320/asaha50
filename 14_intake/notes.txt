@@ -1,0 +1,1 @@
+Predictions: we think it will just print the content in the testmodule b/c it's calling that and call the print staements to the console.
