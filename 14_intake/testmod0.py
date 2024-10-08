@@ -1,3 +1,4 @@
+def goo():
     return "this is return string from goo() in test module"
 
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
