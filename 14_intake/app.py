@@ -39,7 +39,7 @@ PROTIP: Insert your own in-line comments
    understand what is going on.
 '''
 
-@app.route("/"), methods=['GET', 'POST'])
+@app.route("/"), methods=['GET', 'POST']) #uncommented to us these to sent information to the server
 def disp_loginpage():
     #print("\n\n\n")
     #print("***DIAG: this Flask obj ***")
