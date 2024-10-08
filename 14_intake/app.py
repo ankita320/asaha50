@@ -57,6 +57,12 @@ def disp_loginpage():
 
 @app.route("/auth"), methods=['GET', 'POST'])
 def authenticate():
+ if request.method == 'GET':
+        user = request.args['username']
+        return "Hi " + user + "!"
+ else:
+        return "Ooops you don't exist."
+  
     #print("\n\n\n")
     #print("***DIAG: this Flask obj ***")
     #print(app)
