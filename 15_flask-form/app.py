@@ -53,7 +53,11 @@ def disp_loginpage():
 #or if the username field is missing, this will throw an error. reusewd old code
 def authenticate():
     if request.method == 'GET':
-	    user = request.args['username']
+        user = request.args['username']
+    elif request.method == 'POST':
+        user = request.form.get('username')
+    else:
+        return "error!"
     return render_template('response.html', user = user) 
 
 if __name__ == '__main__':
