@@ -1,0 +1,22 @@
+Ankita Saha
+Python Pigs - Andy Shyklo, Ankita Saha, Abidur Rahman
+SoftDev
+2024-10-07
+K14 - GET and POST
+Time Spent: .75 hrs
+
+DISCO:
+* get seems to fetch the info from the URL, and uses the info to display  content on a website
+- in comparison to POST, get seems to have less security
+-----------------------------------------------------------------------
+
+
+Q/C/C:
+* How can we make custom error messages in python? (Try/Catch?) 
+* How should we introduce session management to prevent duplicate form submissions?
+-----------------------------------------------------------------------
+
+
+OTHER?
+* Securely sending sensitive info like passwords to the server. this is probably what POST gets used for -- for passwords, whereas less sensitive info like user can be used w GET
+-----------------------------------------------------------------------
