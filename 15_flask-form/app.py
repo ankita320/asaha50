@@ -42,31 +42,21 @@ PROTIP: Insert your own in-line comments
 @app.route("/", methods=['GET', 'POST'])
 # Prediction: This should work fine as long as the login.html file exists
 # in a templates folder. If the file is missing, Flask will
-#throw an error.
+#throw an error. reused old code
 def disp_loginpage():
-    #print("\n\n\n")
-    #print("***DIAG: this Flask obj ***")
-    print(app)
-    #print("***DIAG: request obj ***")
-    print(request)
-    #print("***DIAG: request.args ***")
-    print(request.args)
-    #print("***DIAG: request.args['username']  ***")
-    #print(request.args['username'])
-    #print("***DIAG: request.headers ***")
-    #print(request.headers)
     return render_template( 'login.html' )
 
 
 @app.route("/auth",  methods=['GET', 'POST'])
 # Prediction: This will work if the form submits via GET request and
 #includes a username argument. If the form uses POST,
-#or if the username field is missing, this will throw an error.
+#or if the username field is missing, this will throw an error. reusewd old code
 def authenticate():
- try:
-     user = request.args['username']
-     return user
- except:
-     return "Ooops you don't exist."
-  
+    if request.method == 'GET':
+	    user = request.args['username']
+    return render_template('response.html', user = user) 
+
+if __name__ == '__main__':
+    app.debug = True
+    app.run()
     
