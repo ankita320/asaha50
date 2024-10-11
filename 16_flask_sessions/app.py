@@ -70,20 +70,11 @@ def authenticate():
         return "error!"
     return render_template('response.html', user = session['username'], pass1 = session['password']) 
 
+@app.route("/logout",  methods=['GET', 'POST'])
+
 def disp_logoutpage():
-    if request.method == 'GET':
-        user = request.args['username']
-        pass1 = request.args['password']
-        session['username'] = user
-        session['password'] = pass1
-    elif request.method == 'POST':
-        user = request.form.get('username')
-        pass1 = request.form.get('password')
-        session['username'] = user
-        session['password'] = pass1
-    else:
-        return "error!"
-    return render_template('response.html', user = session['username'], pass1 = session['password']) 
+    session.clear()
+    return render_template('logout.html') 
 
 if __name__ == '__main__':
     app.debug = True
