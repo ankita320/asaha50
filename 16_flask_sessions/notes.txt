@@ -1,8 +1,8 @@
 Ankita Saha
 Python Pigs - Andy Shyklo, Ankita Saha, Abidur Rahman
 SoftDev
-2024-10-07
-K14 - GET and POST
+2024-10-11
+K16 - GET and POST
 Time Spent: .75 hrs
 Plan:
 use cookies, store user and password somehow until the info is removed/cleared behind the scenes/in the terminal. redierect it to a new page after.
