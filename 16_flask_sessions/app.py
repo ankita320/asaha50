@@ -1,8 +1,9 @@
-# Ankita Saha
-# SoftDev
-# October 8 2024
-#Time Spent: 0.5 hrs
-
+#Ankita Saha
+#Python Pigs - Andy Shyklo, Ankita Saha, Abidur Rahman
+#SoftDev
+#2024-10-11
+#K16 - GET and POST
+#Time Spent: .75 hrs
 # import conventions:
 # list most general first (standard python library)
 # ...then pip installs (eg Flask)
