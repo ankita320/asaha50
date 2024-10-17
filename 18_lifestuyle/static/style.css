@@ -1,0 +1,28 @@
+body {
+    font-family: arial;
+    background-color: #5c5c5c;
+    color: #fff;
+}
+
+header {
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: #333;
+}
+
+h1 {
+    color: white;
+}
+
+.n {
+  display: flex;
+}
+
+.bar {
+  padding-right: 70px;
+}
+footer {
+  text-align: end;
+}
