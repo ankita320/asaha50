@@ -1,3 +1,11 @@
+'''Ankita Saha, Andy Shyklo, Abidur Rahman
+  Python Pigs
+  SoftDev
+  K18 - Flask app with CSS
+  2024-10-17
+  time spent: 0.5 hours
+'''
+
 from flask import Flask, render_template
 app = Flask(__name__)
 
