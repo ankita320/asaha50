@@ -1,0 +1,3 @@
+https://www.geeksforgeeks.org/what-is-cursor-in-sql/
+
+
