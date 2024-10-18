@@ -1,0 +1,1 @@
+we noticed that we didnt have to render the css file specifically on app.py because when already call to in in the html file. so since we are rendering the html fle on app.py, the css file gets rendered through that.
