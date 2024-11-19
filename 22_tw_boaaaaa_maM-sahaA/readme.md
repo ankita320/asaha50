@@ -12,7 +12,7 @@ Main Links
 
 *Foundations:*
 - focuses more on structure and less on jumbling a lot of code into one simple feature.
-- not very efficent
+- doesnt have as many ready to go hands on tools for meddling with the css
 - we dont like it.
 
 *Tailwind*: This framework focuses more on the stylistic components of the website rather than structure. However, for Foundations, there is less of a focus on style and more on structure. It seems like it is used more for adding specific/particular aspects like a name card div boxes. For tailwind, all style components.
