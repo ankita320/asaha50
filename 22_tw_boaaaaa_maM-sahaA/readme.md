@@ -4,6 +4,7 @@ Main Links
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
 
 **DISCO:**
+
 *Bootstrap*: the phrases/words used to added a specific component with CSS are very easy to understand and allow for more effective code.
 - the alerts can be useful for user info when user doesn't meet a specific criteria, makes it easier to do without javascript
 - dropdown feature is very builtin, and typically there would be a lot of code used to dispaly a dropdown, so this makes it much moe efficient.
