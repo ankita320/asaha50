@@ -12,17 +12,18 @@ key:alleanhorg
 
 
 ### Key Provisioning:     
-
 - An aspect of the process worth pointing out.
+
 - Another thing you’ll need to know/do to get a key.
+You can either get a general key and select which sector you will be needed data from (Culture, Education, etc.) or go into specific APIs(some require key and some don't)
 - ...
 
-### Quotas:
+### Quotas: No set quota; you can query through as many times as needed, but with large requests, there will be some time delay
 - ...
 
 ---
 
-## The Good:
+## The Good: There are many different kinds of APIs that one can use including Search API which allows users to look up metadata records, Record API which lets users have direct access to the data and IIIFs API which allows users to display works of art in a certain way that would be aesthetic.
 - ...
 ## The Bad:
 - ...
@@ -30,7 +31,7 @@ key:alleanhorg
 - ...
 
 
-**Location:** https://
+**Location:** https://pro.europeana.eu/pages/get-api
 
 ---
 
