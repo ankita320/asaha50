@@ -1,0 +1,2 @@
+QCC:
+the syntaxs for js and scm are very different but the logics are pretty similar
