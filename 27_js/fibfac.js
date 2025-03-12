@@ -1,5 +1,5 @@
 function fac(n){
-    if (n == 1) {
+    if (n === 1) {
         return 1;}
     else {
         n*fac(n-1)
