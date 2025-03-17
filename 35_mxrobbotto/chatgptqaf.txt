@@ -1,0 +1,13 @@
+chatgpt DND0 by TNPG
+
+DOS:
+- go step by step, small to big --> sometimes too much info makes it go in the wrong direction or make it too complex
+- if your use transition words, it ignores everything after the last one (finally, lastly)
+
+DONTS
+- 
+
+THINGS YOU SHOULD KNOW
+- sometimes it has a lot of liberty and will assume the content you want it to produce(sometimes good, like for login)
+- css sucks, do  your own
+- specify which libraries to us, b/c sometimes it will use ones we are not to use 
