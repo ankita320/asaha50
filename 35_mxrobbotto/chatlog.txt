@@ -1,1 +1,36 @@
+please create a basic flask app in python that will serve as a blog page. it should have a login, register, and logout. please use flash messages to let users to login before registering(they can't login unless they register, they cant login with in correct username or password, etc.) make sure it is correct and works accurately!!!!!!!!!!!!!!!!!!!!!!!!!!! and store everything in a database sqlite3
 
+and it doesnt require complex functions for validating emails or anything like that at all. it just takes in a usrname and password
+
+update all the files accordingly please
+
+please fix the register and login files
+
+and home.html..
+
+please do not use hash method or imports or anything like that.  Use these importsimport sqlite3
+from flask import Flask, render_template, redirect, url_for, request, session, flash, and please make sure that flash messages appear on the page
+
+the flash messages are not appearing still. please correct the code so that the flash message appears on the sceen
+
+now, add a button for users to create a blog where they will then be able to create blog entries. please store the title, author, and contents in the database as well
+
+now, add these features: Update their blog by adding a new entry
+View and edit their own past entries
+View the blogs of other users
+
+you did it wrong. i should be able to create an entry IN the blog post
+
+make sure i can still create blogs tho!
+
+c.execute("INSERT INTO blog_posts (title, author) VALUES (?, ?)", (title, author))
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked im getting this error
+
+add styling in a css page and put the blogs into 3x3 grids, and make it look pretty --> but use bootstrap to do so
+
+
+BuildError
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'edit_entry' with values ['post_id']. Did you forget to specify values ['entry_id']?
+
+Traceback (most recent call last) what is this error is m getting?

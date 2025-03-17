@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block title %}Edit Entry{% endblock %}
+{% block content %}
+    <h2>Edit Entry</h2>
+    <form method="POST" action="">
+        <label for="content">Content</label>
+        <textarea id="content" name="content" required>{{ entry[2] }}</textarea>
+        <button type="submit">Update</button>
+    </form>
+{% endblock %}
