@@ -1,0 +1,5 @@
+Plan:
+- go through step by step
+- finish each big step first
+- note anything noteable for each step of the way
+

@@ -1,0 +1,17 @@
+install ubuntu things
+instal python & python env
+set up flaska pp
+serve flask app using server ip adress
+deactivaite
+
+create uWSGI config file
+
+create systemd unit file
+configure Nginx to pass web requests to that socket using the uwsgi protocol.
+use default port and name server domain
+setup block configuration file (default)
+
+
+
+
+
